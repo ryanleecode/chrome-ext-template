@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  functions = "lambda-build"
+  publish = "build"
+
+[dev]
+  framework = "parcel"
+  command = "npm run dev"
+  autoLaunch = false
